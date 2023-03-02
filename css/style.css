@@ -1,0 +1,157 @@
+
+/* основний колір тексту #434455*/
+/* вторичний колір тексту #2E2F42 */
+/* колір h1  #FFFFFF */
+/* акцент #4D5AE5 */
+/* колір фона #E5E5E5 */
+/* колір фона our team #F4F4FD */
+/* колір футера, і hero image background #2E2F42 */
+
+body {
+    font-family: 'Roboto' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.02em;
+}
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* !logo */
+.web {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #4D5AE5;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    
+}
+.studio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #2E2F42;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway';
+}
+.contacts a{
+    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.contacts a:hover,
+.contacts a:active{
+    color: #404BBF;
+}
+/*! end logo */
+
+/* !header */
+.header .link:hover,
+.header .link:focus{
+    color: #404BBF;
+}
+.header .link{
+    color: #2E2F42;
+}
+
+/* !nav */
+.nav-menu .link{
+    font-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:#2E2F42
+}
+/*! nav */
+
+/*! hero */
+.hero-title{
+    color: #fff;
+    background-color: #2E2F42;
+}
+/* !hero end */
+
+/*! sections */
+.section-title{
+    color:#2E2F42 ;
+}
+.feature-list .title{
+    color: #2E2F42;
+    width: 264px;
+    height: 24px;
+}
+.feature-list .title-txt{
+    color: #434455;
+}
+/*! Buttons */
+.button-primary{
+    color:#fff ;
+    font-family: 'Roboto';
+    background-color: #4D5AE5;
+}
+.button-primary:hover{
+    color: #fff;
+    background-color: #404BBF;
+}
+.button-secondary{
+    color: #4D5AE5;
+    font-family: 'Roboto';
+    background-color: #F4F4FD;
+}
+.section .title-txt{
+    color: #2E2F42;
+    width: 264px;
+    height: 24px;
+}
+.section-3{
+    background-color: #F4F4FD;
+}
+/* !end sections */
+/* !rows */
+.rows .title{
+    color: #434455;
+    width: 264px;
+    height: 24px;
+}
+
+.rows   .title-txt {
+    color: #2E2F42;
+    width: 264px;
+    height: 24px;
+}
+/* !rows ends */
+
+/* !footer */
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-txt{
+    color: #E7E9FC;
+}
+.footer .footer-studio{
+    width: 69.55px;
+        height: 13.03px;
+    
+        /* CLOUD */
+    
+        background: #F4F4FD;
+}
