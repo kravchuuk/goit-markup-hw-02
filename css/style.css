@@ -18,7 +18,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
+    color: #434455;
     letter-spacing: 0.02em;
 }
 .list {
@@ -39,7 +39,7 @@ ul {
     line-height: 1.33;
     color: #4D5AE5;
     letter-spacing: 0.03em;
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     
 }
 .studio {
@@ -48,7 +48,7 @@ ul {
     line-height: 1.33;
     color: #2E2F42;
     letter-spacing: 0.03em;
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
 }
 .contacts a{
     color: #434455;
@@ -124,7 +124,7 @@ ul {
 .button-primary:hover{
     color: #fff;
     background-color: #404BBF;
-    font-family: 'Roboto',   sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .button-secondary{
     color: #4D5AE5;
@@ -176,7 +176,7 @@ ul {
 .footer .footer-studio{
     width: 69.55px;
     height: 13.03px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     background: #F4F4FD;
 }
 .project-cards .title{
