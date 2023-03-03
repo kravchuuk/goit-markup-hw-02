@@ -12,13 +12,14 @@
     --color-grey: #2E2F42;
 }
 
+
 body {
     font-family: 'Roboto' ,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #434455;
+    color: var(--color-slate);
     letter-spacing: 0.02em;
 }
 .list {
@@ -33,11 +34,21 @@ ul {
     list-style: none;
 }
 /* !logo */
+
+.logo{
+    font-family:'Roboto' ,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris) ;
+}
 .web {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: #4D5AE5;
+    color: var(--color-iris);
     letter-spacing: 0.03em;
     font-family: 'Raleway',sans-serif;
     
@@ -46,12 +57,12 @@ ul {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    color: #2E2F42;
+    color: var(--color-grey);
     letter-spacing: 0.03em;
     font-family: 'Raleway',sans-serif;
 }
 .contacts a{
-    color: #434455;
+    color: var(--color-slate);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -59,18 +70,20 @@ ul {
     letter-spacing: 0.02em;
 }
 .contacts a:hover,
-.contacts a:active{
-    color: #404BBF;
+.contacts a:active,
+.contacts a:focus{
+    color: var(--color-ocean);
 }
 /*! end logo */
 
 /* !header */
 .header .link:hover,
-.header .link:focus{
-    color: #404BBF;
+.header .link:focus,
+.header .link:active{
+    color: var(--color-ocean);
 }
 .header .link{
-    color: #2E2F42;
+    color: var(--color-grey);
 }
 
 /* !nav */
@@ -79,28 +92,29 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--color-navy-blue);
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color:#2E2F42
+    color: var(var(--color-grey));
 }
 /*! nav */
 
 /*! hero */
 .hero-title{
     color: #fff;
-    background-color: #2E2F42;
+    color: var(--color-cloud);
+    background-color: var(--color-navy-blue-modal);
     font-weight: 700;
 }
 /* !hero end */
 
 /*! sections */
 .section-title{
-    color:#2E2F42 ;
+    color: var(--color-navy-blue);
 }
 .feature-list .title{
-    color: #434455;
+    color: var(--color-slate);
     width: 264px;
     height: 24px;
     font-weight: 500;
@@ -108,13 +122,13 @@ ul {
     line-height: 24px;
 }
 .feature-list .title-txt{
-    color: #434455;
+    color: var(--color-slate);
 }
 /*! Buttons */
 .button-primary{
-    color:#fff ;
+    color: var(--color-cloud);
     font-family: 'Roboto',sans-serif;
-    background-color: #4D5AE5;
+    background-color: var(--color-iris);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -122,14 +136,14 @@ ul {
     cursor: pointer;
 }
 .button-primary:hover{
-    color: #fff;
-    background-color: #404BBF;
+    color: var(--color-cloud);
+    background-color: var(--color-ocean);
     font-family: 'Roboto', sans-serif;
 }
 .button-secondary{
-    color: #4D5AE5;
+    color: var(--color-iris);
     font-family: 'Roboto' sans-serif;
-    background-color: #F4F4FD;
+    background-color: var(--color-cloud);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -137,17 +151,17 @@ ul {
     cursor: pointer;
 }
 .section .title-txt{
-    color: #2E2F42;
+    color: var(--color-navy-blue-modal);
     width: 264px;
     height: 24px;
 }
 .section-3{
-    background-color: #F4F4FD;
+    background-color: var(--color-cloud);
 }
 /* !end sections */
 /* !rows */
 .rows .title{
-    color: #434455;
+    color: var(--color-slate);
     width: 264px;
     height: 24px;
     font-weight: 500;
@@ -156,7 +170,7 @@ ul {
 }
 
 .rows .title-txt {
-    color: #2E2F42;
+    color: var(--color-navy-blue);
     width: 264px;
     height: 24px;
     font-weight: 400;
@@ -167,20 +181,20 @@ ul {
 
 /* !footer */
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--color-grey);
 }
 
 .footer-txt{
-    color: #E7E9FC;
+    color: var(--color-cornflower);
 }
 .footer .footer-studio{
     width: 69.55px;
     height: 13.03px;
     font-family: 'Raleway', sans-serif;
-    background: #F4F4FD;
+    color: var(--color-cloud);
 }
 .project-cards .title{
-    color: #434455;
+    color: var(--color-slate);
     width: 264px;
     height: 24px;
     font-weight: 500;
@@ -188,7 +202,7 @@ ul {
     line-height: 24px;
 }
 .project-cards .title-txt{
-    color: #2E2F42;
+    color: var(--color-grey);
     width: 264px;
     height: 24px;
     font-weight: 400;
