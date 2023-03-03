@@ -1,11 +1,16 @@
 
-/* основний колір тексту #434455*/
-/* вторичний колір тексту #2E2F42 */
-/* колір h1  #FFFFFF */
-/* акцент #4D5AE5 */
-/* колір фона #E5E5E5 */
-/* колір фона our team #F4F4FD */
-/* колір футера, і hero image background #2E2F42 */
+:root {
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-navy-blue: #2E2F42;
+    --color-green: #31D0AA;
+    --color-slate: #434455;
+    --color-light-slate: #8E8F99;
+    --color-cornflower: #E7E9FC;
+    --color-cloud: #F4F4FD;
+    --color-navy-blue-modal: #2E2F42;
+    --color-grey: #2E2F42;
+}
 
 body {
     font-family: 'Roboto' ,sans-serif;
@@ -70,7 +75,7 @@ ul {
 
 /* !nav */
 .nav-menu .link{
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,9 +100,12 @@ ul {
     color:#2E2F42 ;
 }
 .feature-list .title{
-    color: #2E2F42;
+    color: #434455;
     width: 264px;
     height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 .feature-list .title-txt{
     color: #434455;
@@ -105,17 +113,28 @@ ul {
 /*! Buttons */
 .button-primary{
     color:#fff ;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
 }
 .button-primary:hover{
     color: #fff;
     background-color: #404BBF;
+    font-family: 'Roboto',   sans-serif;
 }
 .button-secondary{
     color: #4D5AE5;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04rem;
+    cursor: pointer;
 }
 .section .title-txt{
     color: #2E2F42;
@@ -131,12 +150,18 @@ ul {
     color: #434455;
     width: 264px;
     height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
-.rows   .title-txt {
+.rows .title-txt {
     color: #2E2F42;
     width: 264px;
     height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 /* !rows ends */
 
@@ -153,4 +178,20 @@ ul {
     height: 13.03px;
     font-family: 'Raleway';
     background: #F4F4FD;
+}
+.project-cards .title{
+    color: #434455;
+    width: 264px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.project-cards .title-txt{
+    color: #2E2F42;
+    width: 264px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
