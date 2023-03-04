@@ -124,7 +124,7 @@ ul {
 .section-title{
     color: var(--color-navy-blue);
 }
-.feature-list .title{
+.title{
     color: var(--color-slate);
     font-size: 56px;
     line-height: 1.07;
@@ -194,7 +194,7 @@ ul {
 /* !footer */
 .footer{
     background-color: var(--color-grey);
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Raleway   ',sans-serif;
 }
 
 .footer-txt{
