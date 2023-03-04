@@ -204,6 +204,14 @@ ul {
     height: 13.03px;
     font-family: 'Raleway', sans-serif;
     color: var(--color-cloud);
+
+}
+.buttons{
+    list-style: none;
+}
+
+.project-card .list{
+    list-style: nonex;
 }
 .project-cards .title{
     color: var(--color-slate);
