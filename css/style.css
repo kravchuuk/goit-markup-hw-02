@@ -124,8 +124,7 @@ ul {
 .section-title{
     color: var(--color-navy-blue);
 }
-.title{
-    color: var(--color-slate);
+.feature-list .title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
