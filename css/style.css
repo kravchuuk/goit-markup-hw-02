@@ -194,10 +194,14 @@ ul {
 /* !footer */
 .footer{
     background-color: var(--color-grey);
+    font-family: 'Roboto',sans-serif;
 }
 
 .footer-txt{
     color: var(--color-cornflower);
+}
+.footer .logo{
+    line-height: 1.17;
 }
 .footer .footer-studio{
     width: 69.55px;
