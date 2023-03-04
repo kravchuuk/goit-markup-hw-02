@@ -206,7 +206,9 @@ ul {
     color: var(--color-cloud);
 
 }
-
+.list{
+    list-style: none;
+}
 .project-cards .title{
     color: var(--color-slate);
     width: 264px;
