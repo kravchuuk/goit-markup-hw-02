@@ -125,14 +125,15 @@ ul {
     color: var(--color-navy-blue);
 }
 .list .title{
-font-size: 56px;
-    line-height: 1.07;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
-.feature-list .title-txt{
+.list .title-txt{
     color: var(--color-slate);
 }
 /*! Buttons */
@@ -162,13 +163,25 @@ font-size: 56px;
     letter-spacing: 0.04rem;
     cursor: pointer;
 }
+.section .title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize
+}
 .section .title-txt{
     color: var(--color-navy-blue-modal);
     width: 264px;
     height: 24px;
 }
-.section-3{
+.section-4{
     background-color: var(--color-cloud);
+}
+.section-4 .section-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 /* !end sections */
 /* !rows */
