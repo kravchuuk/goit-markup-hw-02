@@ -57,7 +57,7 @@ ul {
     text-transform: uppercase;
     color: var(--color-iris);
 }
-.logo .link {
+/* .logo .link {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -65,7 +65,7 @@ ul {
     letter-spacing: 0.03em;
     font-family: 'Raleway',sans-serif;
     text-decoration: none;
-}
+} */
 .studio {
     font-weight: 800;
     font-size: 18px;
