@@ -14,7 +14,7 @@
 
 
 body {
-    font-family: 'Roboto' ,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -149,10 +149,12 @@ ul {
     color: #ffffff;
 }
 .button-primary:hover{
+    font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
 }
 .button-secondary{
+    font-family: 'Roboto', sans-serif;
     color: var(--color-iris);
     background-color: var(--color-cloud);
     font-weight: 500;
@@ -225,7 +227,7 @@ ul {
     list-style: none;
 }
 .project-cards .title{
-    color: var(--color-slate);
+    color: var(--color-navy-blue);
     width: 264px;
     height: 24px;
     font-weight: 500;
@@ -233,7 +235,7 @@ ul {
     line-height: 24px;
 }
 .project-cards .title-txt{
-    color: var(--color-grey);
+    color: var(--color-slate);
     width: 264px;
     height: 24px;
     font-weight: 400;
