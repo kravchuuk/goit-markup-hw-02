@@ -151,11 +151,9 @@ ul {
 .button-primary:hover{
     color: var(--color-cloud);
     background-color: var(--color-ocean);
-    font-family: 'Roboto', sans-serif;
 }
 .button-secondary{
     color: var(--color-iris);
-    font-family: 'Roboto' sans-serif;
     background-color: var(--color-cloud);
     font-weight: 500;
     font-size: 16px;
