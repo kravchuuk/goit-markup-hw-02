@@ -12,17 +12,7 @@
     --color-grey: #2E2F42;
 }
 
-.header .link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-    text-decoration: none;
-}
-.header .link {
-    color: var(--color-grey);
-}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -61,7 +51,7 @@ ul {
     color: var(--color-iris);
     letter-spacing: 0.03em;
     font-family: 'Raleway',sans-serif;
-    
+    text-decoration: none;
 }
 .studio {
     font-weight: 800;
@@ -87,7 +77,18 @@ ul {
 /*! end logo */
 
 /* !header */
+.header .link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    text-decoration: none;
+}
 
+.header .link {
+    color: var(--color-grey);
+}
 
 .header .link:hover,
 .header .link:focus,
