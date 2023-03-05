@@ -34,7 +34,6 @@ ul {
     list-style: none;
 }
 
-
 .logo{
     font-family:'Raleway' ,sans-serif;
     font-weight: 800;
@@ -77,8 +76,6 @@ ul {
 /*! end logo */
 
 /* !header */
-
-
 .header .link:hover,
 .header .link:focus,
 .header .link:active{
@@ -99,8 +96,13 @@ ul {
     font-size: 16px;
     line-height: 24px;
 }
-
-
+.menu-nav.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
+}
 /*! nav */
 
 /*! hero */
