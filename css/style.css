@@ -177,13 +177,20 @@ ul {
 .section-4{
     background-color: var(--color-cloud);
 }
-.section-4 .section-title{
+.section-4 .main-title{
     font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+}
+.section-4 .section-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 /* !end sections */
 /* !rows */
