@@ -184,6 +184,7 @@ ul {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    color: var(--color-navy-blue);
 }
 .section-4 .section-title{
     font-weight: 500;
