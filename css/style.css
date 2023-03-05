@@ -39,7 +39,7 @@ ul {
     font-family:'Raleway' ,sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
@@ -77,14 +77,23 @@ ul {
 /*! end logo */
 
 /* !header */
+
+.header .link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-grey);
+    text-decoration: none;
+}
 .header .link:hover,
 .header .link:focus,
 .header .link:active{
     color: var(--color-ocean);
 }
-/* .header .link{
+.header .link{
     color: var(--color-grey);
-} */
+}
 .header-contacts{
     font-style: normal;
 }
