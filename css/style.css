@@ -87,7 +87,7 @@ ul {
 }
 
 /* !nav */
-.nav-items .link{
+.menu .list .link{
     text-decoration: none;
 }
 .nav-items .link:hover,
