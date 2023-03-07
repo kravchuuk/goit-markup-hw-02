@@ -87,9 +87,14 @@ ul {
 }
 
 /* !nav */
-.menu .list{
-
+.nav-items .link{
+    text-decoration: none;
 }
+.nav-items .link:hover,
+.nav-items .link:focus{
+    color: var(--color-ocean);
+}
+
 .menu .nav-items{
     font-weight: 500;
     font-size: 16px;
