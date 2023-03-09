@@ -10,17 +10,17 @@
     --color-cloud: #F4F4FD;
     --color-navy-blue-modal: #2E2F42;
     --color-grey: #2E2F42;
+    --color-white: #ffffff;
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    /* font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 24px; */
+    line-height: 24px;
     color: var(--color-slate);
-    /* letter-spacing: 0.02em; */
+    background-color: var(--color-white);
 }
 .list {
     list-style: none;
@@ -110,16 +110,15 @@ ul {
     
 }
 .hero-title{
-    color: #ffffff;
-    color: var(--color-cloud);
     background-color: var(--color-navy-blue-modal);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--color-white);
 }
+
 /* !hero end */
 
 /*! sections */
@@ -141,20 +140,23 @@ ul {
 
 .list .title-txt{
     color: var(--color-slate);
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
 /*! Buttons */
 .button-primary{
-    color: var(--color-cloud);
     font-family: 'Roboto',sans-serif;
     background-color: var(--color-iris);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    color: #ffffff;
+    color: var(--color-white);
 }
-.button-primary:hover{
+.button-primary:hover,
+.button-primary:focus{
     font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
@@ -169,7 +171,8 @@ ul {
     letter-spacing: 0.04rem;
     cursor: pointer;
 }
-.button-secondary:hover{
+.button-secondary:hover,
+.button-secondary:focus{
     font-family: 'Roboto', sans-serif;
     color: var(--color-cloud);
     background-color: var(--color-ocean);
@@ -184,7 +187,7 @@ ul {
     background-color: var(--color-cloud);
 }
 .section-4 .main-title{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -198,6 +201,9 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+}
+.section-4 .items{
+    background-color: var(--color-white);
 }
 /* !end sections */
 /* !rows */
@@ -244,19 +250,15 @@ ul {
 }
 .project-cards .title{
     color: var(--color-navy-blue);
-    width: 264px;
-    height: 24px;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
 }
 .project-cards .title-txt{
     color: var(--color-slate);
-    width: 264px;
-    height: 24px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5 ;
 }
 .list .link{
     text-decoration: none;
